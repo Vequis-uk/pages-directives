@@ -21,16 +21,35 @@
   </ul>
 </nav>
 
-<!-- <div>
-  <h4>{{ images[currentPage].title }}</h4>
+<div>
+  <h4 appClass [backgroundColor]="'red'">{{ images[currentPage].title }}</h4>
   <img [src]="images[currentPage].url" />
-</div> -->
+</div>
 
-<div [ngSwitch]="currentPage">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- this shows the string "Current Page..." if the currentPage value is equal to the ngSwitchCase value-->
+<!-- <div [ngSwitch]="currentPage">
   <div *ngSwitchCase="0">Current Page is 1</div>
   <div *ngSwitchCase="1">Current Page is 2</div>
   <div *ngSwitchCase="2">Current Page is 3</div>
   <div *ngSwitchCase="3">Current Page is 4</div>
   <div *ngSwitchCase="4">Current Page is 5</div>
   <div *ngSwitchDefault>Unknown Page</div>
-</div>
+</div> -->
